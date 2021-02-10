@@ -40,3 +40,7 @@ PRODUCT_PROPERTY_OVERRIDES += persist.vendor.recovery_update=false
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# Wifi Overlay
+PRODUCT_PACKAGES += \
+    OnePlus7ProWifiOverlay
