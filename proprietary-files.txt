@@ -125,6 +125,11 @@ vendor/lib64/libgf_ud_hal.so
 vendor/lib64/libhvx_proxy_stub.so
 vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
 
+# Vibrator firmware
+vendor/firmware/notif_Ardour.bin
+vendor/firmware/notif_Chic.bin
+vendor/firmware/ring_McLarn.bin
+
 # Sensors
 vendor/etc/sensors/config/ak991x_0.json
 vendor/etc/sensors/config/ak991x_polling_0.json
