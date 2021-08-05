@@ -368,16 +368,11 @@
          when adapting to brighter or darker environments.  This parameter controls how quickly
          brightness changes occur in response to an observed change in light level that exceeds the
          hysteresis threshold. -->
-    <integer name="config_autoBrightnessBrighteningLightDebounce">3000</integer>
-    <integer name="config_autoBrightnessDarkeningLightDebounce">5000</integer>
-
-    <!-- Amount of time it takes for the light sensor to warm up in milliseconds.
-         For this time after the screen turns on, the Power Manager
-         will not debounce light sensor readings -->
-    <integer name="config_lightSensorWarmupTime">0</integer>
+    <integer name="config_autoBrightnessBrighteningLightDebounce">1500</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">1500</integer>
 
     <!-- Light sensor event rate in milliseconds for automatic brightness control. -->
-    <integer name="config_autoBrightnessLightSensorRate">300</integer>
+    <integer name="config_autoBrightnessLightSensorRate">200</integer>
 
     <!-- The default peak refresh rate for a given device. -->
     <integer name="config_defaultPeakRefreshRate">90</integer>
