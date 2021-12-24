@@ -40,4 +40,7 @@
     <dimen name="tri_state_up_dialog_position_l">650.0px</dimen>
     <dimen name="tri_state_up_dialog_position_deep">21.0px</dimen>
     <dimen name="tri_state_up_dialog_position_deep_land">21.0px</dimen>
+
+    <!-- The margin between the status view and the notifications on Keyguard.-->
+    <dimen name="keyguard_indication_margin_bottom_fingerprint_in_display">10dp</dimen>
 </resources>
