@@ -46,3 +46,7 @@ PRODUCT_SOONG_NAMESPACES += \
 # Wifi Overlay
 PRODUCT_PACKAGES += \
     OnePlus7ProWifiOverlay
+
+#Don't do that
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.control_privapp_permissions=log
