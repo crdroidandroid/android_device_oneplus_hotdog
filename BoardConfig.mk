@@ -13,7 +13,6 @@ TARGET_SCREEN_DENSITY := 560
 
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/sm8150-perf_defconfig
-BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
