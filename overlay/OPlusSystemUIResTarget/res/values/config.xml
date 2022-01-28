@@ -11,4 +11,7 @@
     <!-- The radius of the enrollment progress bar, in dp -->
     <integer name="config_udfpsEnrollProgressBar" translatable="false">115</integer>
 
+    <!-- The number of rows in the QuickSettings -->
+    <integer name="quick_settings_max_rows">5</integer>
+
 </resources>
