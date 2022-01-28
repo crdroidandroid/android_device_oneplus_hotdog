@@ -26,4 +26,6 @@
     <!-- Preferred refresh rate at keyguard, if supported by the display -->
     <integer name="config_keyguardRefreshRate">90</integer>
 
+    <!-- The number of rows in the QuickSettings -->
+    <integer name="quick_settings_max_rows">5</integer>
 </resources>
