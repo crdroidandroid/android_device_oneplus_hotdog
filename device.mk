@@ -30,6 +30,11 @@ PRODUCT_PACKAGES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
+# Overlays - RU translations
+DEVICE_PACKAGE_OVERLAYS += \
+    packages/resources/translations/overlay
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    packages/resources/translations/overlay
 
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
