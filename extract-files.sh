@@ -14,7 +14,7 @@ fi
 
 set -e
 
-export DEVICE=guacamole
+export DEVICE=hotdog
 export DEVICE_COMMON=sm8150-common
 export VENDOR=oneplus
 
