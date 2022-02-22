@@ -1878,6 +1878,7 @@
     <path name="audio-record pa-fb">
         <ctl name="MultiMedia1 Mixer QUAT_MI2S_TX" value="1" />
     </path>
+<!-- #endif -->
 
 <!-- yewenliang@MM.Audio, 2020/03/10, add for ktv loopback -->
     <path name="audio-ktv-loopback-rx headphones">
@@ -2683,12 +2684,12 @@
 <!--#ifdef VENDOR_EDIT
 //dujie@MM.Audio, 2019/05/21, add receiver-mmi mixer path -->
   <path name="receiver-mmi">
-     <ctl name="SLIM RX0 MUX" value="AIF1_PB" />
+     <!--ctl name="SLIM RX0 MUX" value="AIF1_PB" />
      <ctl name="CDC_IF RX0 MUX" value="SLIM RX0" />
      <ctl name="SLIM_0_RX Channels" value="One" />
      <ctl name="RX INT0_1 MIX1 INP0" value="RX0" />
      <ctl name="RX INT0 DEM MUX" value="CLSH_DSM_OUT" />
-     <ctl name="EAR SPKR PA Gain" value="G_6_DB" />
+     <ctl name="EAR SPKR PA Gain" value="G_6_DB" /-->
   </path>
 
   <path name="handset-mmi">
@@ -2787,7 +2788,7 @@
     </path>
 
     <path name="speaker-mic-liquid">
-        <path name="dmic3" />
+        <path name="dmic2" />
     </path>
 
     <path name="speaker-mic-sbc">
@@ -2849,7 +2850,7 @@
     <path name="vi-feedback-mono-2">
     </path>
 
-<!-- ifdef VENDOR_EDIT -->
+<!-- #ifdef VENDOR_EDIT-->
     <path name="handset">
         <ctl name="stereo Profile" value="receive" />
         <ctl name="TFA_CHIP_SELECTOR" value="3" />
@@ -2863,7 +2864,7 @@
         <ctl name="TFA_CHIP_SELECTOR" value="3" />
         <ctl name="Ultrasound Mode" value="693" />
     </path>
-<!-- #endif VENDOR_EDIT-->
+ <!-- #endif VENDOR_EDIT-->
 
     <path name="handset-qrd">
         <ctl name="SLIM RX0 MUX" value="AIF1_PB" />
@@ -3420,6 +3421,7 @@
         <ctl name="ADC MUX8" value="AMIC" />
         <ctl name="AMIC MUX8" value="ADC3" />
     </path>
+
 <!-- add by lf for mixer_pather 20171216 -->
     <path name="handset-mic-re-sbc">
         <ctl name="AIF1_CAP Mixer SLIM TX5" value="1" />
@@ -3565,16 +3567,21 @@
 
     <path name="speaker-dmic-endfire">
 <!-- #ifdef VENDOR_EDIT-->
-        <ctl name="AIF1_CAP Mixer SLIM TX7" value="1" />
+<!-- #dujie@MM.Audio, 2019/08/14, Three-stage headphone mode takes three signals -->
+        <ctl name="AIF1_CAP Mixer SLIM TX6" value="1" />
+        <ctl name="AIF1_CAP Mixer SLIM TX5" value="1" />
         <ctl name="AIF1_CAP Mixer SLIM TX8" value="1" />
-        <ctl name="CDC_IF TX7 MUX" value="DEC7" />
-        <ctl name="ADC MUX7" value="AMIC" />
-        <ctl name="AMIC MUX7" value="ADC3" />
+        <ctl name="SLIM_0_TX Channels" value="Three" />
+        <ctl name="CDC_IF TX6 MUX" value="DEC6" />
+        <ctl name="ADC MUX6" value="AMIC" />
+        <ctl name="AMIC MUX6" value="ADC3" />
+        <ctl name="CDC_IF TX5 MUX" value="DEC5" />
+        <ctl name="ADC MUX5" value="AMIC" />
+        <ctl name="AMIC MUX5" value="ADC4" />
+        <ctl name="AMIC4_5 SEL" value="AMIC4" />
         <ctl name="CDC_IF TX8 MUX" value="DEC8" />
         <ctl name="ADC MUX8" value="AMIC" />
-        <ctl name="AMIC MUX8" value="ADC4" />
-        <ctl name="AMIC4_5 SEL" vlaue="AMIC4" />
-        <ctl name="SLIM_0_TX Channels" value="Two" />
+        <ctl name="AMIC MUX8" value="ADC1" />
 <!-- #endif VENDOR_EDIT-->
     </path>
 
@@ -3680,7 +3687,7 @@
         <ctl name="CDC_IF TX8 MUX" value="DEC8" />
         <ctl name="ADC MUX8" value="AMIC" />
         <ctl name="AMIC MUX8" value="ADC1" />
-    <!-- #endif VENDOR_EDIT-->
+       <!-- #endif VENDOR_EDIT-->
     </path>
 
     <path name="voice-rec-dmic-ef">
