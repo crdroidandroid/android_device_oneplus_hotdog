@@ -8,4 +8,14 @@
     <!-- The number of rows in the QuickSettings -->
     <integer name="quick_settings_max_rows">5</integer>
 
+    <!-- The default tiles to display in QuickSettings -->
+    <string name="quick_settings_tiles_default" translatable="false">
+        dataswitch,cell,wifi,bt,nfc,wallet,location,internet,hotspot,dnd,reading_mode,night,cast,screenrecord,usb_tether,onthego,flashlight,airplane,rotation,battery
+    </string>
+
+    <!-- The default tiles to display in QuickSettings with the new UI -->
+    <string name="quick_settings_tiles_new_default" translatable="false">\
+        dataswitch,cell,wifi,bt,nfc,wallet,location,internet,hotspot,dnd,reading_mode,night,cast,screenrecord,usb_tether,onthego,flashlight,airplane,rotation,battery
+    </string>
+
 </resources>
