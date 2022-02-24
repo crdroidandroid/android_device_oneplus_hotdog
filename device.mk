@@ -30,6 +30,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     OnePlusCameraHelper
 
+# GalleryGo from Gapps
+TARGET_INCLUDE_GALLERYGO_GAPPS := true
+
 # Device init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom
