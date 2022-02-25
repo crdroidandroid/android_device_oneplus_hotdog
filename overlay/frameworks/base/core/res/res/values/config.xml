@@ -273,8 +273,8 @@
     <!-- Whether to use old mobile type icons as default -->
     <bool name="config_useOldMobileIcons">true</bool>
 
-    <!-- Whether device has dash charging support -->
-    <bool name="config_hasDashCharger">true</bool>
+    <!-- Whether device has warp charging support -->
+    <bool name="config_hasWarpCharger">true</bool>
 
     <!-- Controls the navigation bar interaction mode:
          0: 3 button mode (back, home, overview buttons)
