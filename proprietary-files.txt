@@ -1,7 +1,18 @@
-# All unpinned blobs below are extracted from OnePlus7TProOxygen_21.P.41_OTA_0410_all_2112101753_1517d4e8f
+# All unpinned blobs below are extracted from OnePlus7TProOxygen_14.O.31_OTA_0310_all_2112102112_b377ce934
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
+vendor/etc/acdbdata/MTP/EU/acdb_version
+vendor/etc/acdbdata/MTP/EU/MTP_Bluetooth_cal.acdb
+vendor/etc/acdbdata/MTP/EU/MTP_Codec_cal.acdb
+vendor/etc/acdbdata/MTP/EU/MTP_General_cal.acdb
+vendor/etc/acdbdata/MTP/EU/MTP_Global_cal.acdb
+vendor/etc/acdbdata/MTP/EU/MTP_Handset_cal.acdb
+vendor/etc/acdbdata/MTP/EU/MTP_Hdmi_cal.acdb
+vendor/etc/acdbdata/MTP/EU/MTP_Headset_cal.acdb
+vendor/etc/acdbdata/MTP/EU/MTP_Speaker_cal.acdb
+vendor/etc/acdbdata/MTP/EU/MTP_workspaceFile.qwsp
+vendor/etc/acdbdata/MTP/acdb_version
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_Codec_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
@@ -17,14 +28,14 @@ vendor/lib/hw/audio.primary.msmnile.so
 vendor/lib64/hw/audio.primary.msmnile.so
 
 # Camera
-vendor/etc/camera/ashdr/iso617_4608x3456.ncf
+vendor/etc/camera/ashdr/ncf_pack_s5k3m5.ncf
+vendor/etc/camera/ashdr/ncf_pack_imx481.ncf
 vendor/etc/camera/ashdr/ncf_pack.ncf
+vendor/etc/camera/ashdr/ncf_pack_imx519.ncf
 vendor/etc/camera/ashdr/ncf_pack_imx371.ncf
 vendor/etc/camera/ashdr/ncf_pack_imx471.ncf
-vendor/etc/camera/ashdr/ncf_pack_imx481.ncf
-vendor/etc/camera/ashdr/ncf_pack_imx519.ncf
 vendor/etc/camera/ashdr/ncf_pack_imx586.ncf
-vendor/etc/camera/ashdr/ncf_pack_s5k3m5.ncf
+vendor/etc/camera/ashdr/iso617_4608x3456.ncf
 vendor/etc/camera/arccali.bin
 vendor/etc/camera/attribute.model
 vendor/etc/camera/calibrationOutput_uw.bin
@@ -96,8 +107,11 @@ vendor/lib64/camera/com.qti.sensormodule.ofilm_imx586.bin
 vendor/lib64/camera/com.qti.sensormodule.ofilm_s5k3m5.bin
 vendor/lib64/camera/com.qti.sensormodule.semco_2nd_lens_imx586.bin
 vendor/lib64/camera/com.qti.sensormodule.semco_imx481.bin
+vendor/lib64/camera/com.qti.sensormodule.semco_imx481_no_otp.bin
 vendor/lib64/camera/com.qti.sensormodule.semco_imx586.bin
+vendor/lib64/camera/com.qti.sensormodule.semco_imx586_no_otp.bin
 vendor/lib64/camera/com.qti.sensormodule.semco_s5k3m5.bin
+vendor/lib64/camera/com.qti.sensormodule.semco_s5k3m5_no_otp.bin
 vendor/lib64/camera/com.qti.sensormodule.sunny_imx471.bin
 vendor/lib64/camera/com.qti.tuned.default.bin
 vendor/lib64/camera/com.qti.tuned.ofilm_imx481.bin
@@ -125,10 +139,8 @@ vendor/lib64/libarm_proxy_skel.so
 vendor/lib64/libgf_ud_hal.so
 vendor/lib64/libhvx_proxy_stub.so
 
-# Vibrator firmware
-vendor/firmware/notif_Ardour.bin
-vendor/firmware/notif_Chic.bin
-vendor/firmware/ring_McLarn.bin
+# ODM feature list
+odm/etc/odm_feature_list
 
 # Sensors
 vendor/etc/sensors/config/ak991x_0.json
@@ -205,3 +217,8 @@ vendor/etc/sensors/config/tcs3701.json
 vendor/etc/sensors/sns_reg_config
 vendor/lib/sensors.ssc.so
 vendor/lib64/sensors.ssc.so
+
+# Vibrator firmware
+vendor/firmware/notif_Ardour.bin
+vendor/firmware/notif_Chic.bin
+vendor/firmware/ring_McLarn.bin
