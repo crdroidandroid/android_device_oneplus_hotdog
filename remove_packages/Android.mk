@@ -5,7 +5,6 @@ LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
-    Calendar \
     Jelly \
     MatLog
 LOCAL_UNINSTALLABLE_MODULE := true
