@@ -281,4 +281,7 @@
          1: 2 button mode (back, home buttons + swipe up for overview)
          2: gestures only for back, home and overview -->
     <integer name="config_navBarInteractionMode">2</integer>
+
+    <!-- NightLight UDFPS -->
+    <bool name="disable_udfps_night_light">true</bool>
 </resources>
