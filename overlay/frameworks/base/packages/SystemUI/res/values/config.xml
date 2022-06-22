@@ -33,27 +33,4 @@
     <string name="quick_settings_tiles_default" translatable="false">
         cell,wifi,dataswitch,nfc,bt,wallet,location,internet,hotspot,dnd,reading_mode,night,cast,screenrecord,usb_tether,onthego,flashlight,airplane,rotation,battery
     </string>
-
-    <!-- Flag to enable framework dimming for udfps -->
-    <bool name="config_udfpsFrameworkDimming">true</bool>
-
-    <!-- Array of brightness-alpha lut for framework dimming -->
-    <string-array name="config_udfpsDimmingBrightnessAlphaArray" translatable="false">
-          <item>0,33</item>
-          <item>1,36</item>
-          <item>3,48</item>
-          <item>8,64</item>
-          <item>16,80</item>
-          <item>27,96</item>
-          <item>41,112</item>
-          <item>61,128</item>
-          <item>80,144</item>
-          <item>104,160</item>
-          <item>130,176</item>
-          <item>158,192</item>
-          <item>188,208</item>
-          <item>221,227</item>
-          <item>250,234</item>
-          <item>255,255</item>
-    </string-array>
 </resources>
