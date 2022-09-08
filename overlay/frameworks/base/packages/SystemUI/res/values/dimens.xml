@@ -44,4 +44,8 @@
 
     <!-- The margin between the status view and the notifications on Keyguard.-->
     <dimen name="keyguard_indication_margin_bottom_fingerprint_in_display">10dp</dimen>
+
+    <!-- Location on the screen of the center of the physical power button. This is a reasonable
+    default that should be overridden by device-specific overlays. -->
+    <dimen name="physical_power_button_center_screen_location_y">1250px</dimen>
 </resources>
