@@ -37,6 +37,7 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     packages/resources/translations/overlay
 
 PRODUCT_PACKAGES += \
+    OPlusExtrasResTarget \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSettingsResTarget \
