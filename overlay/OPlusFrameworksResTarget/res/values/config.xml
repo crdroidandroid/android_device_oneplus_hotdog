@@ -236,4 +236,7 @@
         <item>132</item>  <!-- <item>sensorRadius</item> -->
     </integer-array>
 
+    <!-- Whether device has warp charging support -->
+    <bool name="config_hasWarpCharger">true</bool>
+
 </resources>
