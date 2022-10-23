@@ -8,4 +8,7 @@
     <!-- Default for Settings.Global.DEVICE_NAME $1=MODEL-->
     <string name="def_device_name_simple" translatable="false">OnePlus 7TPro</string>
 
+    <!-- Default automatic screen brightness -->
+    <bool name="def_screen_brightness_automatic_mode">true</bool>
+
 </resources>
