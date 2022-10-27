@@ -239,4 +239,7 @@
     <!-- Whether device has warp charging support -->
     <bool name="config_hasWarpCharger">true</bool>
 
+    <!-- Path to warp charging status file -->
+    <string name="config_WarpChargerStatusPath">/sys/class/power_supply/battery/fastcharger</string>
+
 </resources>
