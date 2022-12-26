@@ -44,10 +44,10 @@
         <device name="SND_DEVICE_IN_UNPROCESSED_THREE_MIC" acdb_id="145"/>
         <device name="SND_DEVICE_IN_UNPROCESSED_QUAD_MIC" acdb_id="146"/>
         <device name="SND_DEVICE_IN_UNPROCESSED_HEADSET_MIC" acdb_id="147"/>
-        <device name="SND_DEVICE_IN_USB_HEADSET_HEX_MIC" acdb_id="162"/>
-        <device name="SND_DEVICE_IN_USB_HEADSET_HEX_MIC_AEC" acdb_id="162"/>
-        <device name="SND_DEVICE_IN_UNPROCESSED_USB_HEADSET_HEX_MIC" acdb_id="162"/>
-        <device name="SND_DEVICE_IN_VOCE_RECOG_USB_HEADSET_HEX_MIC" acdb_id="162"/>
+        <!-- device name="SND_DEVICE_IN_USB_HEADSET_HEX_MIC" acdb_id="162"/ -->
+        <!-- device name="SND_DEVICE_IN_USB_HEADSET_HEX_MIC_AEC" acdb_id="162"/ -->
+        <!-- device name="SND_DEVICE_IN_UNPROCESSED_USB_HEADSET_HEX_MIC" acdb_id="162"/ -->
+        <!-- device name="SND_DEVICE_IN_VOCE_RECOG_USB_HEADSET_HEX_MIC" acdb_id="162"/ -->
         <!-- liuhaituo@MM.Audio, 2019/7/3, porting P headset-mic acdb config to Q -->
         <device name="SND_DEVICE_IN_HEADSET_MIC" acdb_id="23"/>
         <device name="SND_DEVICE_OUT_BT_A2DP" acdb_id="10"/>
