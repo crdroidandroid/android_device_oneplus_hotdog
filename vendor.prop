@@ -1,2 +1,6 @@
 # Bluetooth
 bluetooth.device.default_name=OnePlus 7T Pro
+
+# Graphics
+debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
