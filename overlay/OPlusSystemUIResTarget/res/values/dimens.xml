@@ -32,5 +32,5 @@
     <dimen name="tri_state_up_dialog_position_deep_land">21.0px</dimen>
 
     <!--  Blur radius on status bar window and power menu  -->
-    <dimen name="max_window_blur_radius">125px</dimen>
+    <dimen name="max_window_blur_radius">48px</dimen>
 </resources>
