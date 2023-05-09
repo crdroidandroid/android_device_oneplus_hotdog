@@ -50,6 +50,10 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
+# Display
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/display_id_4630946797824131201.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946797824131201.xml
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
