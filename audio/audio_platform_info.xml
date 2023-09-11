@@ -180,6 +180,8 @@
         <param key="use_audiovoice_scence" value="false"/>
         <!--Jie.Du@MULTIMEDIA.AUDIODRIVER.HAL, 2021/01/20, add for audioscence v2-->
         <param key="use_audiovoice_scence_v2" value="true"/>
+        <!--aishwary.kumar@MULTIMEDIA.AUDIODRIVER.HAL, 2023/01/13, add for separating acdb id for game voice communication-->
+        <param key="separate_game_voice_acdb" value="true"/>
     </config_params>
     <gain_db_to_level_mapping>
         <gain_level_map db="-59" level="5"/>
