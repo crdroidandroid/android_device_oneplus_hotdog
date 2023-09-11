@@ -765,6 +765,14 @@
     </path>
     <!-- #endif -->
 
+    <path name="echo-reference-voip bt-sco">
+        <ctl name="AUDIO_REF_EC_UL10 MUX" value="SLIM_7_RX" />
+    </path>
+
+    <path name="echo-reference-voip bt-sco-wb">
+        <ctl name="AUDIO_REF_EC_UL10 MUX" value="SLIM_7_RX" />
+    </path>
+
     <path name="echo-reference-voip headphones">
         <ctl name="AUDIO_REF_EC_UL10 MUX" value="SLIM_6_RX" />
     </path>
