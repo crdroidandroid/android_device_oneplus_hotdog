@@ -374,7 +374,7 @@
     <item name="config_brightnessRampRateFastFloat" format="float" type="dimen">0.4058823</item>
 
     <!-- Light sensor event rate in milliseconds for automatic brightness control. -->
-    <integer name="config_autoBrightnessLightSensorRate">300</integer>
+    <integer name="config_autoBrightnessLightSensorRate">500</integer>
 
     <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
     <integer-array name="config_udfps_sensor_props" translatable="false" >
