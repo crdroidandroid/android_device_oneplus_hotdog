@@ -4,7 +4,7 @@
     "target_path": "device/oneplus/sm8150-common"
   },
   {
-    "repository": "crdroidandroid/proprietary_vendor_oneplus-hotdog",
+    "repository": "crdroidandroid/proprietary_vendor_oneplus_hotdog",
     "target_path": "vendor/oneplus/hotdog"
   },
   {
