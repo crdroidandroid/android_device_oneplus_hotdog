@@ -6,5 +6,11 @@
   {
     "repository": "crdroidandroid/proprietary_vendor_oneplus-hotdog",
     "target_path": "vendor/oneplus/hotdog"
+  },
+  {
+    "repository" : "ShevT/android_packages_resources_translations",
+    "target_path": "packages/resources/translations",
+    "branch"     : "crdroid-13.0",
+    "remote"     : "crdroid-gitlab"
   }
 ]
