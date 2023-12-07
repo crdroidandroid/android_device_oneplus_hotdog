@@ -365,12 +365,6 @@
          Must be in the range specified by minimum and maximum. -->
     <item name="config_screenBrightnessSettingDefaultFloat" format="float" type="dimen">0.19550341</item>
 
-    <!-- Slow brightness animation ramp rate in float. -->
-    <item name="config_brightnessRampRateSlowFloat" format="float" type="dimen">0.04</item>
-
-    <!-- Fast brightness animation ramp rate in float. -->
-    <item name="config_brightnessRampRateFastFloat" format="float" type="dimen">0.4058823</item>
-
     <!-- Light sensor event rate in milliseconds for automatic brightness control. -->
     <integer name="config_autoBrightnessLightSensorRate">300</integer>
 
