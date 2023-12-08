@@ -1,10 +1,12 @@
 [
   {
     "repository": "crdroidandroid/android_device_oneplus_sm8150-common",
-    "target_path": "device/oneplus/sm8150-common"
+    "target_path": "device/oneplus/sm8150-common",
+    "branch": "14.0-hotdog"
   },
   {
     "repository": "crdroidandroid/proprietary_vendor_oneplus_hotdog",
-    "target_path": "vendor/oneplus/hotdog"
+    "target_path": "vendor/oneplus/hotdog",
+    "branch": "14.0-hotdog"
   }
 ]
