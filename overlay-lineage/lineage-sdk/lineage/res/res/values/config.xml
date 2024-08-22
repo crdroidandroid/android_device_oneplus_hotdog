@@ -13,4 +13,6 @@
         <item>restart_bootloader</item>
         <item>restart_fastboot</item>
      </string-array>
+
+    <integer name="config_outdoorAmbientLux">10000</integer>
 </resources>
