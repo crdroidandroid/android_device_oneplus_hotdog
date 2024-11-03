@@ -37,4 +37,7 @@
     <dimen name="tri_state_up_dialog_position_deep">21.0px</dimen>
     <dimen name="tri_state_up_dialog_position_deep_land">21.0px</dimen>
 
+    <!-- Lockscreen shortcut horizontal padding.  -->
+    <dimen name="keyguard_affordance_horizontal_offset">29dp</dimen>
+
 </resources>
