@@ -56,9 +56,6 @@ PRODUCT_SOONG_NAMESPACES += \
 # Fingerprint animation
 TARGET_HAS_UDFPS := true
 
-# Disable Matlog
-TARGET_DISABLE_MATLOG := true
-
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/oneplus/sm8150-common/common.mk)
 
